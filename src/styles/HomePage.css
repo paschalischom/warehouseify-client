@@ -1,0 +1,34 @@
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear;
+}
+.fade-enter-done {
+    opacity: 1;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms linear;
+}
+.fade-exit-done {
+    opacity: 0;
+}
+.fade-appear {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active {
+    opacity: 1;
+    transition: opacity 2000ms linear;
+}
+.container {
+    width: 60%;
+    height: 70%;
+    display: flex;
+}
