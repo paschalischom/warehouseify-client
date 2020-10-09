@@ -1,8 +1,9 @@
 import NavigationTabs from './NavigationTabs';
-import QueryCustomizationForm from "./QueryCustomizationForm";
+import QueryFilteringForm from "./QueryFilteringForm";
+import QueryRankingForm from "./QueryRankingForm";
 import OverviewForm from "./OverviewForm";
 import ResultsForm from "./ResultsForm";
 
 export {
-    NavigationTabs, QueryCustomizationForm, OverviewForm, ResultsForm
+    NavigationTabs, QueryFilteringForm, QueryRankingForm, OverviewForm, ResultsForm
 }
